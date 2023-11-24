@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoT Coventry</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    
+        header {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        #logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+    
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+    
+        #logo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    
+        h1 span {
+            color: black;
+        }
+    
+        h1 span.cov {
+            color: #5B97B1;
+        }
+    
+        .image-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    
+        .image-box {
+            width: calc(25% - 20px); /* Four columns on larger screens */
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    
+        p {
+            margin-top: 5px;
+            color: #333;
+        }
+    
+        /* Media Queries for Mobile Responsiveness */
+        @media screen and (max-width: 768px) {
+            .image-box {
+                width: 100%; /* Full width on smaller screens */
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="img/mot-coventry-ninja.png" alt="Logo">
+        </div>
+        <h1>
+            <span>Ministry of Testing </span><span class="cov">Coventry </span><span>Meetup</span>
+        </h1>
+    </header>
+
+    <div class="image-container">
+        <!--Meetup-->
+        <div class="image-box">
+            <a href="https://www.meetup.com/ministry-of-testing-coventry">
+                <img src="img/meetup-logo.png" alt="Meetup Logo that links to MoT Coventry Meetup page.">
+            </a>
+            <p><a href="https://www.meetup.com/ministry-of-testing-coventry"
+                    aria-label="Text that links to MoT Coventry Meetup page.">MoT Coventry Meetup Page</a></p>
+        </div>
+        <!--LinkedIn-->
+        <div class="image-box">
+            <a href="https://www.linkedin.com/company/ministry-of-testing-coventry">
+                <img src="img/linkedin-logo.png" alt="Meetup Logo that links to MoT Coventry LinkedIn page.">
+            </a>
+            <p><a href="https://www.linkedin.com/company/ministry-of-testing-coventry"
+                    aria-label="Text that links to MoT Coventry LinkedIn page.">MoT Coventry LinkedIn Page</a></p>
+        </div>
+        <!--Twitter X-->
+        <div class="image-box">
+            <a href="https://twitter.com/motcoventry">
+                <img src="img/twitter-x-logo.png" alt="Meetup Logo that links to MoT Coventry Twitter X page.">
+            </a>
+            <p><a href="https://twitter.com/motcoventry"
+                    aria-label="Text that links to MoT Coventry Twitter X page.">MoT Coventry Twitter X Page</a></p>
+        </div>
+        <!--GMail-->
+        <div class="image-box">
+            <a href="mailto:ministryoftestingcoventry@gmail.com">
+                <img src="img/email-logo.png" alt="Email Logo that links to MoT Coventry email address.">
+            </a>
+            <p><a href="mailto:ministryoftestingcoventry@gmail.com" aria-label="Text that links to MoT Coventry email address.">Contact Us By Email</a></p>
+        </div>        
+    </div>
+
+</body>
+
+</html>
